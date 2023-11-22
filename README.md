@@ -5,7 +5,7 @@
 ## Precautions
 Before you use the code to train your own data set, please first enter the ___train_gpu.py___ file and modify the ___data_root___, ___batch_size___ and ___nb_classes___ parameters. If you want to draw the confusion matrix and ROC curve, you only need to remove the comments of ___Plot_ROC___ and ___Predictor___ at the end of the code. For the third parameter, you should change it to the path of your own model weights file(.pth).
 
-## Use Sophia Optimizer (in util.optimizer.py)
+## Use Sophia Optimizer (in util/optimizer.py)
 You can use anther optimizer sophia, just need to change the optimizer in ___train_gpu.py___, for this training sample, can achieve better results
 ```
 # optimizer = create_optimizer(args, model_without_ddp)
