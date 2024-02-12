@@ -1,6 +1,6 @@
-# EfficientViT-Pytorch
+<h1 align='center'>EfficientViT-Pytorch</h1>
 
-## EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention (https://arxiv.org/pdf/2305.07027.pdf)
+## [EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention](https://arxiv.org/pdf/2305.07027.pdf)
 
 ## Precautions
 Before you use the code to train your own data set, please first enter the ___train_gpu.py___ file and modify the ___data_root___, ___batch_size___ and ___nb_classes___ parameters. If you want to draw the confusion matrix and ROC curve, you only need to remove the comments of ___Plot_ROC___ and ___Predictor___ at the end of the code. For the third parameter, you should change it to the path of your own model weights file(.pth).
